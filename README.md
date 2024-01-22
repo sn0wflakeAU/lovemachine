@@ -14,14 +14,14 @@ In this mode, the pwnagotchi begins by attempting to connect to the internet usi
 
 Once it does, it connects to its home base to do two things:
 
-1. it downloads any new unhashed passwords, and adds them to its knows passwords list.
+1. it downloads any new unhashed passwords, and adds them to its known passwords list.
 2. it uploads saved handshakes to its home base, where passwords can be later unhashed from them.
 
-Then, the process returns to sniffing wifi handshakes before attempting to connect to the interet later.
+Then, the process returns to sniffing wifi handshakes before attempting to connect to the internet later.
 
 When connecting to a hotspot, it will attempt to reduce usage. Other transfers such as pwnmail and software updates can also be optionally set to download when connected on selected wifi hotspots (or any, if in a trusted environment).
 
-[1] If free public wifi needs a form to be completed before accessing the internet, such as entering an email or agreeing to the terms of use, the pwnagotchi will have the ability to complete it.
+*[1] If free public wifi needs a form to be completed before accessing the internet, such as entering an email or agreeing to the terms of use, the pwnagotchi will have the ability to complete it.*
 
 ## License
 
